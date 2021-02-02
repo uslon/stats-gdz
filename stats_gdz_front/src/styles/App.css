@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+
+.mainContainer {
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}

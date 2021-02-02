@@ -1,0 +1,47 @@
+.header-container {
+    background-color: lightblue;
+    width: 97%;
+    height: 5vh;
+    margin: 10px;
+    margin-outside: 2px;
+
+    display: flex;
+    flex-direction: row;
+
+    vertical-align: middle;
+    line-height: 5vh;
+    text-align: center;
+}
+
+.tasks-container {
+    background-color: transparent;
+    width: 97%;
+    margin: 10px;
+
+    display: inline-block;
+}
+
+.show-hide-button {
+    font-size: 40px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline:none;
+}
+
+.button-wrapper {
+    width: 40px;
+}
+
+.single-task {
+    width: 60px;
+    height: 40px;
+    background: transparent;
+    border:solid 2px black;
+    border-radius: 5px;
+
+    font-size: 25px;
+
+    margin: 10px;
+}
